@@ -1,0 +1,85 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color:white;
+}
+
+.siteNav {
+	margin: 0 auto;
+	padding: 15px 10px 0 0;
+	display: flex; 
+	justify-content: space-between;
+}
+
+.shrink {
+	display: none;
+}
+.search {
+	height: 45px;
+	width: 272px;
+}
+.heart{
+	height:52px;
+	width:140px;
+}
+
+.author {
+	height:40px;
+	width: 150px;
+}
+
+.published {
+	height: 40px;
+	width: 142px;
+}
+
+.M {
+	height: 29px;
+	width: 26px;
+	padding: 0 10px;
+}
+.section-content {
+	margin: 0 auto; 
+	width: 50%;
+
+}
+.two {
+	display: none;
+}
+
+body {
+  position: relative;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+ @media screen and (max-width: 800px) {
+ 	.two {
+ 		display: inline;
+ 	}
+ 	.one {
+ 		display: none;
+ 	}
+ 	.shrink { 
+ 		display: flex;
+ 	}
+ }
+
+
+	.italic {
+		font-style: italic;
+	}
